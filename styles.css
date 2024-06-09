@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#currentPage {
+    border: 2px solid black;
+    border-radius: 1vw;
+    background-color: #abaeaf;
+}
+
+#currentPage h1 {
+    color: black;
+}
+
+#currentPage:hover {
+    border: 2px solid white;
+    background-color: #565859;
+    color: white;
+}
+
+#currentPage:hover h1 {
+    color: white;
+}
+
+.nav-item h1 {
+    font-weight: bolder;
+    color: white;
+    width: max-content;
+}
+
+.nav-item h1:hover {
+    color: gray;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  height: 5vw;
+}
+
+/* HEADINGS IN THE NAVIGATION BAR */
+.nav-link h1 {
+  font-size: 2vw;
+  margin: 0;
+  justify-content: center;
+}
+
+/* ITEMS WITHIN THE NAVIGATION BAR */
+.nav-link {
+  padding: 1.5vw 2vw;
+  margin: 0 3vw;
+  white-space: nowrap;
+}
+
+/* NAVIGATION BAR FLEXBOX */
+.navbar-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.navbar-collapse {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.carousel-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+.carousel-item img {
+    filter: brightness(50%) blur(3px);
+}
+
+#homePageImg img{
+    max-width: 100%;
+    padding-left : 10%;
+    padding-right: 5%;
+    padding-top: 12.5%;
+}
+
+#homePageCenter img {
+    max-width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#tagline {
+    color: white;
+    text-wrap: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#aboutUsMain {
+    color: white;
+}
